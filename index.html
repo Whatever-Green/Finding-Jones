@@ -14,7 +14,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('/Photos/Finding-The-Jones.png');
+  background-image: url('/photos/findingjones.png');
   min-height: 100%;
 }
 </style>
@@ -51,8 +51,9 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <header class="w3-container w3-center" style="padding:128px 16px" id="home">
     <h1 class="w3-jumbo"><b>The Jones Twins</b></h1>
     <p>Help Us Reunite them</p>
-    <img src="/Photos/Finding-The-Jones.png" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
-    <img src="/Photos/Finding-The-Jones.png" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <img src="photos//jones_raw.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="photos/jones_raw.jpg"w3-image w3-hide-large w3-hide-medium w3-round" width="300" height="333">
+    <p>  </p>
     <a href="Sign.html">
     <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
       <i class="fa fa-download"></i> Sign Petition
@@ -67,7 +68,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <p>Help us re-unite them; bring back peace to a broken household and help hold the people who seperated them responsible</p>
     </p>
     <h2>One Of Them Were Last Seen Here:</h2>
-    <img src="Photos/Map.png" alt="" style="text-align: center;"">
+    <img src="photos/map.png" alt="" style="text-align: center;"">
     <!--
     <h3 class="w3-padding-16">My Skills</h3>
     <p class="w3-wide">Photography</p>
@@ -179,7 +180,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     </div>
     
     <!-- Image of location/map -->
-    <img src="/Photos/hat.jpg" class="w3-image w3-greyscale" style="width:100%;margin:32px 0">
+    <img src="photos/hat.jpg" class="w3-image w3-greyscale" style="width:100%;margin:32px 0">
    
     
   <!-- End Contact Section -->
@@ -187,12 +188,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   
   <!-- Footer -->
   <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+
     <p class="w3-medium">Programmed and Designed By: whatever.green (J.N)<a href="https://me.whatevergreen.cf" target="_blank" class="w3-hover-text-green">w3.css</a></p>
   <!-- End footer -->
   </footer>
@@ -211,7 +207,24 @@ function closeNav() {
   document.getElementById("mySidebar").style.display = "none";
 }
 </script>
+<style>
+  body{ 
+    background-repeat: no-repeat;
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(110, 110, 110, 0.7), 
+          rgba(255, 255, 255, 0.7)
+        ),
+        /* bottom, image */
+        url('photos/royal_hall.jpg')
+        
+    }
+  h1, p , div, h2, h3 , h4 , .w3-padding-24, span{
+    color: black;
 
+  }
+</style>
 </body>
 </html>
 
